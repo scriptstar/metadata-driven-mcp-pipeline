@@ -1,0 +1,11 @@
+{
+  "SALES_LEADS_V1": {
+    "required_columns": ["Name", "Email", "LeadScore"]
+  },
+  "MARKETING_CONTACTS_V1": {
+    "required_columns": ["FirstName", "LastName", "Email", "CampaignSource"]
+  },
+  "DEFAULT_RULES_V1": {
+    "required_columns": ["Column1", "Column2", "RequiredButMissing"]
+  }
+}

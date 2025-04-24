@@ -1,0 +1,129 @@
+# .gitignore
+
+# --- Python ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# --- Project-Specific ---
+# Ignore the *contents* of the data processing directories
+# but allow tracking of the directories themselves via .gitkeep files.
+/incoming/*
+!/incoming/.gitkeep
+/processing_loading/*
+!/processing_loading/.gitkeep
+/archive/success/*
+!/archive/success/.gitkeep
+/archive/failed/*
+!/archive/failed/.gitkeep
+
+# Ignore log files if created
+*.log
+
+# --- OS Generated Files ---
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# --- Editor/IDE Files ---
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.sw[opn]
+*.[oa].swp
+
+# Emacs
+*~
+#*#
