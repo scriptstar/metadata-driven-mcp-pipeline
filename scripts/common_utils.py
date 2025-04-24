@@ -7,7 +7,7 @@ import uuid
 from datetime import datetime, timezone
 
 # --- Configuration (Paths relative to the script execution location) ---
-# Assuming scripts are run from the root 'mcp-file-processing-example' directory
+# Assuming scripts are run from the root 'metadata-driven-mcp-pipeline' directory
 BASE_DIR = os.getcwd() # Get current working directory where script is run
 INCOMING_DIR = os.path.join(BASE_DIR, "incoming")
 PROCESSING_LOADING_DIR = os.path.join(BASE_DIR, "processing_loading")

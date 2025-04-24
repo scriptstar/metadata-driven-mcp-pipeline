@@ -73,7 +73,7 @@ We implement the MCP concept using **JSON metadata files** (e.g., `my_data.csv.m
 ## Project Structure
 
 ```bash
-mcp-file-processing-example/
+metadata-driven-mcp-pipeline/
 ├── archive/                # Final resting place for processed files
 │   ├── failed/             # Files that failed validation or loading
 │   └── success/            # Files that were successfully processed and loaded
@@ -98,7 +98,7 @@ mcp-file-processing-example/
 ## Setup
 
 1. Clone this repository or download the source code.
-2. Navigate into the project's root directory (`mcp-file-processing-example/`) in your terminal.
+2. Navigate into the project's root directory (`metadata-driven-mcp-pipeline/`) in your terminal.
 
 ## How to Run the Workflow
 
